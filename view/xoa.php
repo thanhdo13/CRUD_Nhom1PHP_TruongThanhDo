@@ -19,6 +19,7 @@
             $arr1 = explode("#",$value);
                 fwrite($fo2,$arr1[0]."#".$arr1[1]."#".$arr1[2]."#".$arr1[3]."#".$arr1[4]."#101\n");  
         }
+        
         fclose($fo2); 
     }
     header("location: xxxx.php");
